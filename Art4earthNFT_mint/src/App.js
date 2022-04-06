@@ -258,6 +258,16 @@ function App() {
                 Roadmap
               </StyledButton>
               <StyledButton
+                onClick={(e) => {
+                  window.open("https://www.art4earthnft.com/", "_blank");
+                }}
+                style={{
+                  margin: "5px",
+                }}
+              >
+                Website
+              </StyledButton>
+              <StyledButton
                 style={{
                   margin: "5px",
                 }}
